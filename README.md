@@ -1,285 +1,281 @@
 # 🌾 AgriAgent
 
-### A Digital Platform Built to Connect Farmers With Essential Agricultural Services
+<p align="center">
+  <strong>One Platform. Multiple Agricultural Services.</strong>
+</p>
 
-AgriAgent is a mobile application designed to bring essential agricultural services and information together in one accessible platform.
+<p align="center">
+  A farmer-focused mobile application designed to simplify access to agricultural services, tools, marketplace opportunities, and useful information.
+</p>
 
-The application focuses on helping farmers discover services, connect with agricultural workers and equipment providers, explore marketplace opportunities, calculate potential crop revenue, measure land area, and access useful agricultural information — all through a simple, farmer-focused experience.
+<p align="center">
+
+[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge\&logo=android\&logoColor=white)](https://play.google.com/store/apps/details?id=com.agriagent.app)
+[![React Native](https://img.shields.io/badge/React%20Native-Mobile-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-Framework-000020?style=for-the-badge\&logo=expo\&logoColor=white)](https://expo.dev/)
+[![Status](https://img.shields.io/badge/Status-Published-success?style=for-the-badge)](https://play.google.com/store/apps/details?id=com.agriagent.app)
+
+</p>
+
+---
+
+## 🚜 What is AgriAgent?
+
+**AgriAgent** is a mobile platform created to bring multiple agricultural services together in one place.
+
+Instead of requiring farmers to depend on different sources for different needs, AgriAgent brings services such as **labour discovery, equipment rental, produce marketplace, land measurement, revenue calculation, agricultural solutions, and weather information** into a single application.
+
+> **The idea:** Make useful agricultural services easier to discover, understand, and access.
+
+---
+
+## ✨ Features
+
+| 🌱 Feature                 | 📌 Purpose                                                       |
+| -------------------------- | ---------------------------------------------------------------- |
+| 👨‍🌾 **Labour Hiring**    | Discover agricultural workers based on requirements and location |
+| 🚜 **Equipment Rental**    | Find agricultural equipment available for rental                 |
+| 🛒 **Produce Marketplace** | Connect agricultural produce with potential buyers               |
+| 💰 **Revenue Calculator**  | Estimate potential crop revenue                                  |
+| 📐 **Land Measurement**    | Measure agricultural land using location-based functionality     |
+| 💡 **Community Solutions** | Explore agricultural problems and practical solutions            |
+| 🌦️ **Weather**            | Access useful weather information                                |
+| 🌐 **Telugu + English**    | Support for regional and English users                           |
+| 🌙 **Dark Mode**           | Alternative visual theme for comfortable usage                   |
+
+---
+
+## 🎯 Built Around Real-World Problems
+
+AgriAgent focuses on common agricultural workflows that can otherwise require multiple disconnected resources.
+
+```text
+        👨‍🌾 FARMER
+             │
+     ┌───────┴────────┐
+     │                │
+  SERVICES          TOOLS
+     │                │
+     ├─ Labour        ├─ Land Area
+     ├─ Equipment     ├─ Revenue
+     └─ Marketplace   └─ Weather
+             │
+             ▼
+       🌾 AGRIAGENT
+```
+
+The objective is to create a **single, accessible entry point** for these activities.
+
+---
 
 ## 📱 Application
 
-**AgriAgent is available on Google Play.**
+### Available on Google Play
 
-[Download AgriAgent on Google Play](https://play.google.com/store/apps/details?id=com.agriagent.app)
+<p align="center">
 
----
+<a href="https://play.google.com/store/apps/details?id=com.agriagent.app">
 
-## 🎯 Why AgriAgent?
+<img src="https://img.shields.io/badge/▶%20GET%20AGRIAGENT%20ON%20GOOGLE%20PLAY-2E7D32?style=for-the-badge&logo=googleplay&logoColor=white" />
 
-Farmers often rely on multiple sources to find agricultural labour, equipment, market opportunities, and other essential information.
+</a>
 
-AgriAgent aims to bring these activities into a single digital platform.
+</p>
 
-### The goal is simple:
-
-> **Make essential agricultural services easier to discover, access, and use.**
-
-The application is designed with a strong focus on usability, particularly for users who may not be highly familiar with complex digital applications.
+<p align="center">
+  <sub>Android application • Public release</sub>
+</p>
 
 ---
 
-## 🚜 Key Features
+## 🧩 Product Modules
 
-### 👨‍🌾 Labour Hiring
+<details>
+<summary><strong>👨‍🌾 Labour</strong></summary>
 
-Find and connect with agricultural workers based on location and requirements.
+A location-oriented labour discovery experience intended to help farmers find agricultural workers based on their requirements.
 
-* Location-based discovery
-* Agricultural work categories
-* Worker profiles
-* Ratings and verification concepts
+</details>
 
-### 🚜 Equipment Rental
+<details>
+<summary><strong>🚜 Equipment</strong></summary>
 
-Discover agricultural equipment available for rental.
+A rental-oriented module for discovering agricultural machinery and equipment.
 
-* Equipment discovery
-* Location-based availability
-* Rental information
-* Security-deposit support
+</details>
 
-### 🛒 Produce Marketplace
+<details>
+<summary><strong>🛒 Marketplace</strong></summary>
 
-A marketplace concept connecting farmers with potential buyers.
+A marketplace concept designed to help farmers showcase agricultural produce and discover potential buyers.
 
-* List agricultural produce
-* Browse available produce
-* Buyer–seller discovery
-* Product information
+</details>
 
-### 💰 Revenue Calculator
+<details>
+<summary><strong>💰 Revenue Calculator</strong></summary>
 
-Estimate potential crop revenue using agricultural pricing information.
+A simple calculation tool for estimating crop revenue based on crop-related inputs and pricing information.
 
-* Crop selection
-* Quantity calculation
-* Price-based revenue estimation
-* Simple farmer-friendly interface
+</details>
 
-### 📐 Land Area Measurement
+<details>
+<summary><strong>📐 Land Measurement</strong></summary>
 
-A location-based utility for measuring agricultural land area.
+A location-based utility designed to help users calculate agricultural land area.
 
-* GPS-based measurement
-* Area calculation
-* Easy-to-understand results
+</details>
 
-### 🌱 Agricultural Solutions
+<details>
+<summary><strong>🌦️ Weather</strong></summary>
 
-A community-oriented section where users can explore agricultural problems and solutions.
+Weather information presented within the application to support everyday agricultural planning.
 
-* Crop-related issues
-* Farming solutions
-* Community knowledge
-* Practical agricultural information
-
-### 🌦️ Weather Information
-
-Provides weather information intended to help farmers make better day-to-day decisions.
-
-### 🌐 Telugu + English
-
-Designed with support for **Telugu and English**, with a focus on making the application accessible to farmers in Telangana and Andhra Pradesh.
+</details>
 
 ---
 
-## 🎨 Product Design
+## 🎨 Design Philosophy
 
-AgriAgent follows a farmer-focused mobile UI philosophy.
+AgriAgent is designed around **simplicity and accessibility** rather than information density.
 
 ### Design principles
 
-* Simple navigation
-* Large touch targets
-* Clear visual hierarchy
-* Icon-oriented interactions
-* Telugu-first accessibility
-* Light and dark themes
-* Minimal complexity
-* Mobile-first experience
+```text
+┌──────────────────────────────┐
+│       SIMPLE INTERFACE       │
+├──────────────────────────────┤
+│                              │
+│   👆 Large Touch Targets     │
+│                              │
+│   🌐 Regional Language       │
+│                              │
+│   🧭 Clear Navigation         │
+│                              │
+│   👁️ Visual-first UI          │
+│                              │
+│   📱 Mobile-first Experience  │
+│                              │
+└──────────────────────────────┘
+```
 
-The goal is to reduce the learning curve and make important functionality accessible without requiring users to navigate complicated menus.
+The interface is particularly focused on making important actions easy to discover without requiring users to navigate complex workflows.
 
 ---
 
-## 📸 Application Screenshots
+## 🌐 Language Support
 
-> Screenshots will be added here to showcase the current application.
+AgriAgent supports:
 
-### Home
+**English**
+**తెలుగు (Telugu)**
 
-![AgriAgent Home](screenshots/home.png)
-
-### Labour Hiring
-
-![Labour Hiring](screenshots/labour.png)
-
-### Equipment Rental
-
-![Equipment Rental](screenshots/equipment.png)
-
-### Marketplace
-
-![Marketplace](screenshots/marketplace.png)
-
-### Revenue Calculator
-
-![Revenue Calculator](screenshots/revenue-calculator.png)
-
-### Land Measurement
-
-![Land Measurement](screenshots/land-measurement.png)
+The regional-language experience is intended to make the application more accessible to users in **Telangana and Andhra Pradesh**.
 
 ---
 
 ## 🛠️ Technology
 
-AgriAgent is built as a modern mobile application.
+The application is built using modern mobile development technologies.
 
-### Application
+| Layer            | Technology               |
+| ---------------- | ------------------------ |
+| 📱 Mobile        | React Native             |
+| ⚡ Framework      | Expo                     |
+| 💻 Language      | JavaScript               |
+| 📍 Location      | Device location services |
+| 🌦️ Weather      | Weather API integration  |
+| 🔗 Communication | REST API integration     |
+| 🎨 UI            | Custom mobile UI         |
 
-* React Native
-* Expo
-* JavaScript
-* Material-inspired UI
-* Location-based services
-* REST API integration
+> **Implementation details are intentionally kept private.**
 
-### Data & Services
-
-The application integrates with backend services and external APIs to support features such as:
-
-* User authentication
-* Agricultural data
-* Weather information
-* Marketplace functionality
-* Location services
-
-> **Note:** Source code, backend implementation, API infrastructure, database configuration, credentials, and other private implementation details are intentionally not published in this repository.
+The public repository is primarily a **product showcase and documentation repository**. Application source code, backend implementation, database configuration, credentials, API secrets, and private infrastructure are not publicly exposed.
 
 ---
 
-## 🔐 Security & Privacy
+## 🔒 Privacy & Security
 
-AgriAgent is designed with user privacy and platform security in mind.
+No sensitive implementation details are included in this repository.
 
-Private implementation details such as:
+**Not publicly exposed:**
 
-* Backend source code
-* Database structure
-* API credentials
-* Authentication secrets
-* Server configuration
-* Private infrastructure
+```text
+❌ Source Code
+❌ Backend Implementation
+❌ Database Credentials
+❌ API Keys / Secrets
+❌ Server Configuration
+❌ Authentication Secrets
+❌ Private Infrastructure
+```
 
-are **not included in this public repository**.
-
-The public repository is intended primarily to document and showcase the product.
-
----
-
-## 🧑‍💻 My Contribution
-
-I designed and developed AgriAgent as an end-to-end application project.
-
-My work includes:
-
-* Product ideation
-* Feature planning
-* UI/UX design
-* Mobile application development
-* Frontend architecture
-* API integration
-* Location-based functionality
-* Weather integration
-* Authentication flow
-* Localization
-* Application testing
-* Play Store preparation
-* Product deployment
-
-The project provided practical experience in taking an application from an initial idea through development, testing, and public release.
+Only public-facing project information and documentation are maintained here.
 
 ---
 
-## 📦 Project Status
+## 🗺️ Roadmap
 
-**Current Status: Published**
+AgriAgent can continue evolving into a broader agricultural services platform.
 
-AgriAgent has been packaged and published as an Android application.
+### Planned / Potential Improvements
 
-### Get the application
-
-[![Google Play](https://img.shields.io/badge/Google%20Play-Download%20App-414141?style=for-the-badge\&logo=google-play)](https://play.google.com/store/apps/details?id=com.agriagent.app)
-
----
-
-## 🗺️ Project Vision
-
-AgriAgent can evolve into a broader digital ecosystem for agricultural communities.
-
-Potential future improvements include:
-
-* More agricultural services
-* Expanded marketplace capabilities
-* Improved farmer verification
-* Regional language expansion
-* Agricultural price intelligence
-* Advanced crop tools
-* More location-based services
-* Community-driven agricultural knowledge
-* Improved recommendations
+* [ ] Expanded agricultural service categories
+* [ ] Improved marketplace capabilities
+* [ ] Additional regional languages
+* [ ] Enhanced agricultural recommendations
+* [ ] More farmer-focused utilities
+* [ ] Expanded community features
+* [ ] Improved location-based discovery
 
 ---
 
-## 🌾 Built for Farmers
+## 📊 Project Snapshot
 
-AgriAgent is more than a demonstration project.
-
-It was designed around a practical question:
-
-> **How can everyday agricultural services be made easier to discover and access through one mobile application?**
-
-The project combines mobile development, location services, APIs, marketplace concepts, localization, and product design into a single real-world application.
-
----
-
-## 📲 Try AgriAgent
-
-**Google Play:**
-https://play.google.com/store/apps/details?id=com.agriagent.app
-
----
-
-## 👨‍💻 Developer
-
-**Siddhik Reddy**
-
-Computer Science Engineering | Software Developer
-
-Interested in building practical applications using:
-
-**React • React Native • Node.js • Python • Linux • APIs**
-
-### Connect
-
-* GitHub: https://github.com/siddhik-reddy
-* Portfolio: https://siddhikreddyy.vercel.app
+```text
+┌─────────────────────────────────────────┐
+│              AGRIAGENT                  │
+├─────────────────────────────────────────┤
+│                                         │
+│  🌾 Agriculture-focused mobile app      │
+│                                         │
+│  📱 Android                             │
+│  🌐 Telugu + English                    │
+│  🚜 Agricultural Services               │
+│  🛒 Marketplace                         │
+│  📐 Utility Tools                       │
+│  🌦️ Weather                             │
+│                                         │
+│  🚀 PUBLICLY PUBLISHED                  │
+│                                         │
+└─────────────────────────────────────────┘
+```
 
 ---
 
-## 📄 License
+## ⭐ Explore the Application
 
-This repository contains project documentation and public-facing project assets.
+<p align="center">
 
-The underlying application source code and backend implementation are private and are not licensed for redistribution.
+### 🌾 Experience AgriAgent
+
+<a href="https://play.google.com/store/apps/details?id=com.agriagent.app">
+
+<img src="https://img.shields.io/badge/GOOGLE%20PLAY-OPEN%20APPLICATION-2E7D32?style=for-the-badge&logo=googleplay&logoColor=white" />
+
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+**🌾 AgriAgent**
+
+<sub>Connecting farmers with services, tools, and opportunities.</sub>
+
+</p>
+
+<p align="center">
+  <sub>© AgriAgent • Product Showcase Repository</sub>
+</p>
